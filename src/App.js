@@ -30,6 +30,7 @@ export default function App() {
     <div className="movie" key={movie.name}>
       <h3>{movie.name}</h3>
       <small>Rating: {movie.rating}</small>
+      <p>{movie.description}</p>
     </div>
   ));
 
